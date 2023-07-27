@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+}
+
+.container__principal {
+  background: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__container,
+.footer__container {
+  background: #222;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #f3f3f3;
+  width: 100%;
+}
+
+a {
+  color: #f3f3f3;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 0.6rem;
+}
+
+#colores {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+#colores span:first-child {
+  color: #39b24a;
+}
+
+#colores span:nth-child(2) {
+  color: #ffffff;
+}
+#colores span:nth-child(3) {
+  color: #fc200c;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh;
+}
+
+.header__logo,
+.footer__logo {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.header__navbar li,
+.footer__navbar li {
+  margin-right: 3vw;
+  list-style: none;
+}
+
+.menu-icon {
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  margin: 10vw 2rem;
+  width: 80vw;
+}
+
+.main__banner {
+  height: 21.875rem;
+  background-image: url(../IMG/delivery.jpg);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  min-width: min-content;
+  max-width: 30.6875rem;
+}
+
+.main__banner span,
+.main__banner h2,
+.main__podio h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fc200c;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.main__banner span {
+  color: #ffffff;
+}
+
+.main__top__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__podio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  background-color: #ffffff;
+  height: 21.875rem;
+  min-width: min-content;
+  max-width: 30.6875rem;
+
+  justify-content: space-around;
+}
+.main__top h4,
+.main__podio li {
+  color: #222;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 4.7px;
+}
+
+.main__podio li {
+  font-size: 1rem;
+}
+
+.main__imagen {
+  align-self: center;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-right: 6vw;
+}
+.footer__navbar {
+  margin-left: 6vw;
+}
+
+/* MODO DESKTOP TABLET */
+@media screen and (min-width: 768px) {
+  body {
+    background: #f3f3f3;
+  }
+
+  .header__navbar li {
+    display: inline;
+  }
+
+  .main__container {
+    width: 90vw;
+    flex-direction: row;
+    align-items: flex-end;
+    column-gap: 0.6rem;
+    justify-content: center;
+  }
+
+  .main__podio,
+  .main__banner {
+    margin-top: -4rem;
+    width: 30.6875rem;
+  }
+
+  .footer__container {
+    position: relative;
+    top: 21vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    position: relative;
+    top: 19.65vh;
+  }
+}

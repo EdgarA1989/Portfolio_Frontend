@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+* {
+  margin-top: 0;
+  margin-left: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+header {
+  display: flex;
+  background-color: #222222;
+  width: 100vw;
+  height: 6.5rem;
+}
+
+#imagen {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+#imagen img {
+  position: absolute;
+  top: 30%;
+}
+
+#navbar {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+
+header nav a {
+  color: #f3f3f3;
+  text-decoration: none;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 6.5rem;
+  letter-spacing: 1px;
+  text-align: left;
+  word-spacing: 30px;
+}
+
+header img {
+  margin-right: 40px;
+  margin-left: 70px;
+}
+
+#navbar nav {
+  padding-right: 30px;
+  text-align: right;
+}
+
+/* Seccion del Main slide  */
+
+#slide {
+  width: 100vw;
+  height: 512px;
+  background-image: url(../IMG/Fondoslide.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#slide h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #f3f3f3;
+  text-align: center;
+  padding-top: 185px;
+}
+
+#slide h1 span {
+  color: #d01418;
+}
+
+#slide div {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+#slide button {
+  width: 220px;
+  height: 61px;
+  border-radius: 5px;
+  background-color: #d01418;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 30px;
+  color: #f3f3f3;
+}
+
+#productos {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+
+h2 {
+  padding-top: 26px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 35px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 10px;
+  color: #619d00;
+}
+
+#productos hr {
+  margin-top: 13px;
+  margin-bottom: 25px;
+  border: none;
+  border-top: 2px dotted #d6d3d3;
+}
+
+.card {
+  display: inline-block;
+  width: 265px;
+  height: 322px;
+  text-align: center;
+  border: 0.1px solid #d3cfcf 8;
+  margin: 6px 18px;
+  background-color: white;
+  padding-top: 14px;
+}
+
+.contenido {
+  padding-left: 25px;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+
+/* Banner */
+
+#banner {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#galeria {
+  display: flex;
+  justify-content: center;
+}
+
+#estrellaizq {
+  background-image: url(../IMG/Silals.png);
+  background-position: center;
+  background-size: cover;
+  width: 24.5rem;
+  height: 11rem;
+  margin-right: 1rem;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+#estrellader {
+  background-image: url(../IMG/Computadoras.png);
+  background-position: center;
+  background-size: cover;
+  width: 24.5rem;
+  height: 11rem;
+  margin-left: 4rem;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+#estrellader span {
+  font-size: 1.5625rem;
+  color: #f3f3f3;
+  font-weight: 100;
+  position: absolute;
+  left: 14rem;
+  top: 50%;
+}
+
+#estrellaizq span {
+  font-size: 1.5625rem;
+  color: #f3f3f3;
+  font-weight: 100;
+  position: absolute;
+  left: 15.4rem;
+  top: 50%;
+}
+
+#estrellaizq {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../IMG/Computadoras.png);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  font-size: large;
+  color: #d3cfcf;
+  text-align: right;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  margin-top: 100px;
+  width: 100vw;
+  height: 216px;
+  background-color: #222222;
+}
+
+#bloque1 {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+#bloque2 {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+#bloque1 img {
+  position: absolute;
+  top: 40%;
+  left: 6rem;
+}
+
+#bloque2 img {
+  position: relative;
+  top: 36%;
+  margin-left: 0.3rem;
+  padding-left: 1.4rem;
+}
+
+#bloque2 p {
+  position: relative;
+  top: 36%;
+  margin-left: 0.3rem;
+  padding-left: 1.4rem;
+  color: #f3f3f3;
+  font-size: 25px;
+  font-style: Roboto;
+  font-weight: 400;
+}
+
+.pie {
+  text-align: center;
+  height: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+}

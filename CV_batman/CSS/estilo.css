@@ -1,0 +1,93 @@
+#Rectangulo1 {
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 188px;
+  background: #c4c4c4;
+}
+
+#Rectangulo2 {
+  width: 100%;
+  height: 30px;
+  left: 0px;
+  top: 376px;
+  background: #c4c4c4;
+}
+
+#Rectangulo3 {
+  width: 100%;
+  height: 37px;
+  left: 0px;
+  top: 987px;
+
+  background: #005677;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  padding-top: 11px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 84.69%;
+  /* identical to box height, or 30px */
+  letter-spacing: 10px;
+  color: #005677;
+}
+
+h2 {
+  width: 395.62px;
+  height: 17px;
+  left: 12.45px;
+  top: 382px;
+  padding-top: 7px;
+  padding-left: 2px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 84.69%;
+  letter-spacing: 5px;
+  /* identical to box height, or 17px */
+
+  font-feature-settings: "cpsp" on;
+
+  color: #005677;
+}
+
+span {
+  width: 145px;
+  height: 17px;
+  left: 601px;
+  top: 998px;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 84.69%;
+  /* identical to box height, or 17px */
+
+  color: #ffffff;
+}
+
+.imagen {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#logoInstagram {
+  padding-top: 6px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
